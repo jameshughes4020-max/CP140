@@ -1,14 +1,22 @@
 {
-  "name": "P3_Orion",
+  "name": "CP-140_Orion",
   "type": "airplane",
   "model": "aircraft.glb",
   "engineCount": 4,
   "propellerCount": 4,
   "landingGear": "retractable",
   "controlSurfaces": {
-    "ailerons": ["Aileron_Left","Aileron_Right"],
-    "flaps": ["Flap_Left","Flap_Right"],
+    "ailerons": ["Aileron_L", "Aileron_R"],
+    "flaps": ["Flap_L", "Flap_R"],
     "rudder": ["Rudder"],
-    "elevators": ["Elevator_Left","Elevator_Right"]
+    "elevators": ["Elevator_L", "Elevator_R"]
+  },
+  "lights": {
+    "navLights": ["Nav_Light_L", "Nav_Light_R"],
+    "strobeLights": ["Strobe_L", "Strobe_R"]
+  },
+  "cockpitCamera": {
+    "position": [0, 1.5, 2],
+    "rotation": [0, 0, 0]
   }
 }
