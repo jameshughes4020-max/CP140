@@ -1,0 +1,14 @@
+{
+  "name": "P3_Orion",
+  "type": "airplane",
+  "model": "aircraft.glb",
+  "engineCount": 4,
+  "propellerCount": 4,
+  "landingGear": "retractable",
+  "controlSurfaces": {
+    "ailerons": ["Aileron_Left","Aileron_Right"],
+    "flaps": ["Flap_Left","Flap_Right"],
+    "rudder": ["Rudder"],
+    "elevators": ["Elevator_Left","Elevator_Right"]
+  }
+}
